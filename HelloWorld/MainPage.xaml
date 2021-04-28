@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Selamat Datang di Percobaan Xamarin dari Amelia!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Click Me" Clicked="Handle_Clicked" />
+        <Label Text="Hello World! Yuk mulai Ngoding Sekarang!" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Buat perubahan pada file XAML Anda dan simpan untuk melihat pembaruan UI Anda di aplikasi yang berjalan dengan XAML Hot Reload. Give it a Try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Kode Program secara lengkap dapat dilihat di"/>
+                        <Span Text="https://github.com/amlpm/Tugas7_PBKK-C_XamarinHelloWorld" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
